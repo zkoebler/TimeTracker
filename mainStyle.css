@@ -1,0 +1,45 @@
+
+
+.goto-timetable{
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-right: 80%;
+}
+.goto-text{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+.Start-End{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+}
+.button{
+    background: green;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: xx-large;
+}
+.button:hover{
+    border-radius: 50%;
+    transition: 500ms;
+    width: 320px;
+    height: 320px;
+    cursor: pointer;
+}
+.clock-wrapper{
+    padding-top: 20%;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

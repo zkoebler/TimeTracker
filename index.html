@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time Tracker</title>
+        <link href="mainStyle.css" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="goto-timetable">
+            <div class="goto-text" onclick="location.href='table.html';" style="cursor: pointer;">
+                Time Table
+            </div>
+        </div>
+        <div class="Start-End">
+            <div class="button" id="btn">
+                Start
+            </div>
+            <div class="clock-wrapper">
+                <div class="hour" id="h">
+                    00
+                </div>
+                <div class="colon">
+                    :
+                </div>
+                <div class="minute" id="m">
+                    00
+                </div>
+                <div class="colon">
+                    :
+                </div>
+                <div class="second" id="sec">
+                    00
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="actions.js"></script>
+</html>
